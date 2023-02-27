@@ -3,7 +3,7 @@ package fr.mime.miouziz;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Miouziz extends JavaPlugin {
-    private static Miouziz INSTANCE = null;
+    private static Miouziz INSTANCE;
 
     @Override
     public void onEnable() {
@@ -22,7 +22,7 @@ public final class Miouziz extends JavaPlugin {
         getLogger().info(msg);
     }
 
-    public Miouziz getInstance() {
+    public static Miouziz getInstance() {
         return INSTANCE;
     }
 }
