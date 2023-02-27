@@ -1,0 +1,6 @@
+name: Miouziz
+version: '${project.version}'
+main: fr.mime.miouziz.Miouziz
+api-version: 1.18
+authors: [ Mime ]
+description: Mime Plugin
